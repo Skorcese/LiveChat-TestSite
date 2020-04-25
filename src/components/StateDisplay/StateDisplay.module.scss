@@ -1,0 +1,47 @@
+ .title {
+     text-align: center;
+ }
+
+ .codeBlock {
+     background-color: rgb(59, 53, 53);
+     height: 15rem;
+     width: 40rem;
+     color: white;
+     border-radius: 3rem;
+     position: relative;
+     align-self: left;
+     justify-self: left;
+ }
+
+ .code {
+     position: absolute;
+     width: inherit;
+     top: 50%;
+     left: 10%;
+     transform: translate(0%, -50%);
+ }
+
+ .var {
+     font-weight: 800;
+     color: rgb(181, 181, 255);
+ }
+
+ .value {
+     font-weight: 600;
+     color: rgb(255, 217, 0);
+ }
+
+ .indent1 {
+     transform: translateX(2.2rem);
+ }
+
+ @media (min-width: 320px) and (max-width: 480px) {
+     //  .wrapper {
+     //      position: relative;
+     //      width: 90%;
+     //  }
+
+     //  .codeBlock {
+     //      width: inherit;
+     //  }
+ }
